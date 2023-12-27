@@ -1,0 +1,6 @@
+{
+    "rust-analyzer.linkedProjects": [
+        "./toy_bin/Cargo.toml",
+        "./cached_lib/Cargo.toml"
+    ]
+}

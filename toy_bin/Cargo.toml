@@ -1,0 +1,12 @@
+[package]
+name = "toy_bin"
+version = "0.1.0"
+edition = "2021"
+
+[features]
+ide = ["anyhow", "xshell"]
+
+default = []
+[dependencies]
+anyhow = { version = "1.0.77", optional = true }
+xshell = { version = "0.2.5", optional = true }
